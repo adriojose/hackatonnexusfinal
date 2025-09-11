@@ -1,21 +1,3 @@
-
-<script>
-import Sidebar from "@/components/sidebar.vue"
-import Comunicados from "./components/comunicados.vue"
-
-export default {
-  components: { Sidebar, Comunicados }
-}
-</script>
-
 <template>
-  <div>
-    <sidebar :username="'Gustavo'" />
-    
-  </div>
-  <Comunicados/>
+  <router-view />
 </template>
-
-<style scoped>
-
-</style>
