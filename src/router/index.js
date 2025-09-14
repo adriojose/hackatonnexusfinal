@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ComunicadosView from '../components/ComunicadosView.vue'
 import SidebarView from '@/components/SidebarView.vue'
 import TesteView from '@/components/TesteView.vue'
+import EditarPerfilView from '@/components/EditarPerfilView.vue'
 
 
 const routes = [
@@ -9,6 +10,11 @@ const routes = [
     path: '/',
     name: 'Comunicados',
     component: ComunicadosView
+  },
+  {
+    path: '/editarPerfil',
+    name: 'EditarPerfil',
+    component: EditarPerfilView
   },
   {
     path: '/sidebar',
